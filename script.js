@@ -29,7 +29,6 @@ printOutput("9847543");
 function reverseNumberFormat(num) {
     return Number(num.replace(/,/g,''));
 }
-alert(reverseNumberFormat(num)); 
 var operator = document.getElementsByclassName("operator");
 for(var i =0;i<operator.length;i++){
     operator[i].addEventListener('click',function(){
